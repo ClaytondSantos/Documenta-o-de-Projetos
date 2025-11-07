@@ -8,7 +8,7 @@ const projects = [
   },
   {
     id: 'proj-exemplo-2',
-    name: 'Motor de Jogo (protótipo)',
+    name: 'Hotel Sistema de Reserva',
     description: 'Sistema de reserva de hotel utilizando API e Node.js.',
     github: 'https://github.com/ClaytondSantos/Hotel-Sistema-de-Reservas-Hotel',
     tags: ['API', 'Hotel']
