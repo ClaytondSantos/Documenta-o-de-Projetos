@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Documentação de Projetos — Clayton dos Santos</title>
+  <meta name="description" content="Página pública para documentação dos projetos do curso. Links para repositórios GitHub e páginas de projeto." />
+
+  <!-- Importar o CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">CD</div>
+        <div>
+          <h1>Documentação de Projetos — Clayton dos Santos</h1>
+          <p class="lead">Central de documentação com links para repositórios GitHub e páginas do curso.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#projects">Projetos</a>
+        <a href="https://github.com/ClaytondSantos?tab=repositories" target="_blank" rel="noopener">Meu GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <h2>Bem-vindo</h2>
+          <p class="muted">
+            Esta página funciona como índice dos teus projetos.  
+            Os links abaixo apontam para os respetivos repositórios GitHub.
+          </p>
+
+          <div class="search">
+            <input id="search" type="search" placeholder="Procurar projeto..." aria-label="Pesquisar projetos">
+            <button id="clear" class="ghost">Limpar</button>
+          </div>
+
+          <small class="muted">
+            Adicione novos projetos no ficheiro <code>script.js</code>.
+          </small>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projetos</h2>
+        <div id="projectsGrid" class="projects"></div>
+      </section>
+
+      <footer>
+        <div>Feito por Clayton dos Santos — manter público até o final do curso.</div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Importar o JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
